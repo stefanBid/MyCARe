@@ -3,9 +3,11 @@
 
 <p>Il sito proposto andrà a gestire la vendita di accessori per auto come ad esempio coprisedili, copri-auto ecc. Questo sito si apre quindi ad un ampio pubblico accomunato dall’amore per il proprio veicolo. I dati sensibili degli utenti verranno trattati ed organizzati in modo tale da essere preservati, e in modo tale che siano persistenti nel sito.<p>
 
+
 ## SCELTA DEL NOME
 
 <p>Il nome che si è pensato di utilizzare è “MyCARe”, quest’ultimo si rifà al gioco di parole “car” e “care” che hanno pronuncia simile. L’obiettivo è quello di mescolare la parola auto a quella di cura relativa alla cura estetica della nostra automobile.</p>
+
 
 ## OBIETTIVO DEL SITO
 
@@ -15,6 +17,7 @@ Dato che il sito non vuole puntare a divenire un banale servizio di vendita sar�
 Logicamente il nostro sito sarà caratterizzato da una home page in cui potremmo avere una panoramica generale, mentre nella parte superiore del nostro sito Web troveremo una barra di navigazione che ci permetterà di districarci fra i vari prodotti che il sito mette a disposizione per la vendita
 Con una grafica semplice e stilizzata, elementi essenziali e dei mezzi di ricerca veloci ci poniamo l'obiettivo di fornire un servizio agile e allo stesso tempo gradevole.
 La scelta dei colori è stato uno degli aspetti che riteniamo più importanti all'interno di un sito e, come tale, abbiamo deciso insieme di usare colori molto sobri e rilassanti alla vista.</p>
+
 
 ## UTENTE & AMMINISTRATORE
 
@@ -47,6 +50,27 @@ All’utente sarà dedicata un’area in cui lo stesso potrà inserire eventuali
 2.	Ritardi di spedizione
 3.	Incorformità del prodotto
 4.	Problemi relativi al pagamento
+
+
+## TEMA
+
+<p> Il tema utilizzato è un tema sobrio per mixare al meglio stile e sobrietà.</p>
+
+### Scelta dei Colori
+
+<p>Il sito che si è pensato di sviluppare avrà un set di colori molto caldi e adeguatamente  vivaci (nonché sobri) che mostriamo nell’immagine sotto allegata</p>
+
+<p align="center"><img src="https://i.imgur.com/AAcYs4q.png" alt="TAVOLA COLORI"></p>
+•	I colori presi in considerazione sono:
+
+•	#FFAF06 ---> Arancione vivido
+•	#F5824A ---> Rosso brillante
+•	#1E1E1E ---> Nero
+•	#F2F2F2 ---> Bianco
+•	#FFFEEF ---> Giallo Pallido
+
+
+
 
 
 
