@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel= "icon" href= "images/icon.png" type ="image/png" />
+  <title>Curiosità</title>
+<!-- 
+Magazee Template 
+http://www.templatemo.com/tm-514-magazee
+-->
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">                                        <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="CSS/templatemo-style.css">                                     <!-- Templatemo style -->
+
+  <script>
+    var renderPage = true;
+
+    if(navigator.userAgent.indexOf('MSIE')!==-1
+      || navigator.appVersion.indexOf('Trident/') > 0){
+        /* Microsoft Internet Explorer detected in. */
+        alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+        renderPage = false;
+    }
+  </script>
+
+</head>
+
+<body>
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+ <div class="container">
+
+  <!-- SEZIONE 1 -->
+  <section class="row tm-section">
+   <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+    <div class="tm-flex-center p-5 tm-bg-color-primary tm-section-min-h">
+      <h1 class="tm-text-color-white tm-site-name">MY CARe</h1>
+    </div>
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <div class="tm-flex-center p-5">
+      <q class="tm-quote tm-text-color-gray"> IMPOSSIBLE IS NOTHING </q>
+    </div>
+  </div>
+</section>
+
+<!-- SEZIONE 2 -->
+<section class="row tm-section tm-col-md-reverse">
+ <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+  <div class="tm-flex-center p-5">
+    <div class="tm-md-flex-center">
+      <h2 class="tm-text-color-primary mb-4">I NOSTRI MARCHI</h2>
+      <p class="mb-4">Per assicurare ai nostri utenti serietà e affidabilità ci preoccupiamo di selezionare prodotti top di gamma e certificati.</p>
+      
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+  <div class="tm-flex-center p-5 tm-bg-color-primary">
+    <div class="tm-max-w-400 tm-flex-center tm-flex-col">
+      <img src="img/uno.jpg" alt="Image" class="rounded-circle mb-4">
+      <p class="tm-text-color-white small tm-font-thin mb-0"></p>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- SEZIONE 3-->
+<section class="row tm-section tm-mb-30">
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
+    <img src="img/team.png" alt="Image" class="img-fluid">
+  </div>
+  <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+    <div class="tm-flex-center p-5">
+      <div class="tm-flex-center tm-flex-col">
+        <h2 class="tm-align-left">Amministratori</h2>
+        <p> <b>Alfonso Damiano Montesarchio(BN)</b> </p>
+        <P><u>alfonso_damiano@yahoo.it</u></P>
+        <p> <b>Stefano Biddau  Monteforte Irpino(AV)</b> </p>
+        <P><u>stefanobiddau99@gmail.com</u></P>
+        <p> <b>Antonio Cappabianca Cervinara(BN)</b> </p>
+        <p><u>antonykbianca@libero.it</u> </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEZIONE 4 -->
+<section class="row tm-section tm-mb-30">
+ <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+  <div class="tm-flex-center pl-5 pr-5 pt-5 pb-5">
+    <div class="tm-md-flex-center">
+     <h2 class="mb-4 tm-text-color-primary">La nostra storia</h2>
+     <p>MyCARe nasce da un idea di tre studenti di Informatica all'Università degli studi di Salerno.</p>
+     <p class="mb-4">L'idea era quella di creare un sito di e-commerce semplice e pratico.Per consentire agli utenti un servizio rapido e semplice per l'acquisto di prodotti utili per la cura delle automobili </p>
+
+     <p class="mb-4">Siamo giunti alla realizzazione nel Luglio 2020 portando a termine il nostro progetto .</p>
+     
+   </div>
+ </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 text-xl-right text-md-center text-center mt-5 mt-lg-0 pr-lg-0">
+ <img src="img/buonaa.jpg" alt="Image" class="img-fluid">
+</div>
+</section>
+
+
+
+
+
+
+<!-- load JS -->
+<script src="JS/scopri.js"></script>         <!-- https://jquery.com/ -->
+<script>
+
+  /* DOM is ready
+  ------------------------------------------------*/
+  $(function(){
+
+    if(renderPage) {
+      $('body').addClass('loaded');
+    }
+
+    $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+  });
+
+</script>
+
+</body>
+</html>

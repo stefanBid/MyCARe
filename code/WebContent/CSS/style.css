@@ -1,0 +1,889 @@
+/*-----------------------------------
+Sfondo Sito
+-----------------------------------*/
+
+
+html,body{
+	background: #F2F2F2;
+	height: 100%;
+    padding: 0px;
+  	margin:0px;
+   	font-family: Verdana, Geneva, sans-serif;
+  	line-height: 1.2em;
+  	font-size:1em;
+  	
+  	}
+
+
+
+/*-----------------------------------
+Font dei caratteri
+-----------------------------------*/
+
+
+h1 {
+  	line-height: 100%;
+  	font-size: 1.6em;
+}
+
+h2{
+	font-size: 1.2em;
+}
+
+
+
+
+
+/*-----------------------------------
+CSS GENERAL
+-----------------------------------*/
+
+
+.animate{
+  -webkit-transition: all 0.3s ease-out;
+             transition: all 0.3s ease-out;
+}
+
+.button{
+	display: inline-block;
+	background: #F5824A;
+	border-radius: 40px 40px 40px 40px;
+	box-shadow: 20px 30px 20px #1E1E1E;
+	color:#1E1E1E;
+	padding: 15px 30px;
+	text-decoration: none;
+
+}
+.button:hover{
+	color:#F2F2F2;
+	background:#1E1E1E ;
+}
+
+.button1{
+	display: none;
+	border-radius: 40px 40px 40px 40px;
+	box-shadow: 20px 30px 20px #1E1E1E;
+	background: #F5824A;
+	color:#1E1E1E;
+	padding: 30px 60px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+
+
+
+/*-----------------------------------
+CSS TABELLE
+-----------------------------------*/
+table{
+	background:#fafafa;
+	border-collapse: collapse;
+  	width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #f2f2f2;
+  whidth:auto;
+}
+ 
+tr:hover {background-color:#ffffff;}
+
+.lista__prodotti a{
+	text-decoration: none;
+	color:#FFAF06; 
+	font-weight: bold;
+	
+	
+}
+
+.lista__prodotti a:hover{
+	color: #F5824A;
+	
+}
+
+.ipertesti a{
+	text-decoration: none;
+	color:#FFAF06; 
+	font-weight: bold;
+}
+
+.ipertesti a:hover{
+	color: #F5824A;
+}
+
+.bottoni_vari [type="submit"]{  /* i css si riferiscono solo al pulsante */
+	border-radius: 14px;
+	height: 40px;
+	background-color:  #F5824A;
+
+}
+
+.bottoni_vari input[type="submit"]:hover {
+	background: #1E1E1E;
+	color: white;
+}
+
+	
+
+
+/*-----------------------------------
+CSS HEADER
+-----------------------------------*/
+
+
+.header{background:#FFFEEF;}
+.header__logo{float: left; display:block; }
+.header__menu{float:right; margin: 0; padding: 0;}
+
+.header__menu__icon{display: inline-block;}
+.header >  header__menu__icon { width: 100%; height: auto; }
+.header__menu__icon a{color: #1E1E1E;display: block; padding:26px; text-decoration: none;}
+.header__menu--icon img{ height: 26px;}
+.header__menu__icon a:hover{background: #F5824A;}
+
+
+.header__menu__item{display: inline-block;}
+.header__menu__item a{color: #1E1E1E;display: block; padding: 26px;  text-decoration: none;}
+.header__menu__item a:hover{background: #F5824A;}
+
+.header__icon-bar{display: block; float: right; padding: 20px; display:none;}
+.header__icon-bar span{ display: block;height:3px; width:30px; background:#1E1E1E; margin-bottom:5px;}
+
+
+/*-----------------------------------
+CSS COVER
+-----------------------------------*/
+.cover{height:80%;
+	background-image: url(../images/cover.jpg);
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center center;
+}
+
+.cover__filter{
+	background:#1E1E1E;
+	width:100%;
+	height:80%;
+	position: absolute;
+	z-index: 0;
+	opacity: 0.5;
+}
+
+
+.cover__caption{
+	display: table;
+	height:100%;
+	width: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.cover__caption__copy{
+
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	color: 	#ffffff;
+}
+
+
+
+/*-----------------------------------
+CSS SLIDESHOW
+-----------------------------------*/
+
+ /* Slideshow container */
+.slideshow-container {
+ background:#1E1E1E;
+ z-index: 0;
+ opacity: 0.9;
+ position: relative;
+ min-height: 200px;
+}
+
+
+/* Slides */
+.mySlides {
+ display: none;
+ padding: 80px;
+ background-image: url(../images/s1.jpg);
+ background-size: cover;
+-o-background-size: cover;
+-moz-background-size: cover;
+background-position: center center;
+ text-align: center;
+}
+
+
+
+/* Next & previous buttons */
+.prev, .next {
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ margin-top: -30px;
+ padding: 16px;
+ color: #888;
+ font-weight: bold;
+ font-size: 20px;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+}
+
+
+
+/* Position the "next button" to the right */
+.next {
+ position: absolute;
+ right: 0;
+ border-radius: 3px 0 0 3px;
+}
+
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+ background-color: rgba(0,0,0,0.8);
+ color: white;
+}
+
+
+
+/* The dot/bullet/indicator container */
+.dot-container {
+ text-align: center;
+ padding: 20px;
+ background: #FFFEEF;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+ cursor: pointer;
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #F2F2F2;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
+}
+
+
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+ background-color: #1E1E1E;
+}
+
+
+
+/* Add an italic font style to all quotes */
+q {
+	
+	font-family: Helvetica, Arial, sans-serif;
+	font-size:18px;
+	font-style:italic;
+	font-weight:bold;
+	display: table-cell;}
+
+
+
+/* Add a blue color to the author */
+.prod {
+	display: inline-block;
+    border-radius: 40px 40px 40px 40px;
+	box-shadow: 20px 30px 20px #1E1E1E;
+	background: #F5824A;
+    color: #1E1E1E;
+    
+    margin-top: 30px;
+	text-decoration: none;
+	border-radious: 3px;
+	padding: 15px 30px;
+}
+
+.prod:hover{
+	color:#F2F2F2;
+	background:#1E1E1E ;
+}
+
+
+
+/*-----------------------------------
+CSS FOOTER
+-----------------------------------*/
+
+
+.footer{
+	background: #1E1E1E;
+	padding: 30px;
+	color: #FFFEEF;
+
+
+
+}
+
+
+
+/*-----------------------------------
+CSS FORM AGGIUNTA PRODOTTO
+-----------------------------------*/
+.pre_contenitore_prodotto{
+	border-radius: 40px 40px 0px 0px;
+	  margin:auto;
+	  height:50px;
+	  border:1px solid #F5824A;
+	  background-color:rgba(30,30,30,0.9);
+	  padding:20px;
+}
+
+.pre_contenitore_prodotto p{
+     color:#F5824A;
+     text-align: left;
+     font-size: 1.9em;
+     font-family: arial;
+     line-height:2px;
+
+}
+
+.spaceL{
+	float: left;
+	display: inline-block;
+	height:100%;
+	width:5%;
+}
+
+
+.spaceR{
+
+	float: right;
+	display: inline-block;
+	height:auto;
+	width:auto;
+}
+
+.down{
+
+	  height:10px;
+	  border-radius: 0px 0px 40px 40px;
+	  background-color:rgba(30,30,30,0.8);
+	  padding:20px;
+}
+
+
+.contenitore_prodotto {
+	  margin:auto;
+      height:auto;
+      padding: 20px;
+      background-color:rgba(30,30,30,0.8);
+
+      color:white;
+
+}
+
+.contenitore_prodotto input{
+    width: auto;
+    margin-bottom: 20px;
+    border:none;
+    border:1px solid black;
+    height:30px;
+    border-radius: 20px 20px 20px 20px;
+
+}
+
+
+
+/*-----------------------------------
+CSS FORM LOGIN
+-----------------------------------*/
+.cover__login{
+	height: auto;
+	width:100%;
+	background-image: url(../images/registrazione.jpg);
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center center;
+
+}
+
+
+.pre_contenitore{
+	  width:320px;
+	  margin:auto;
+	  height:50px;
+	  border:1px solid #F5824A;
+	  border-radius: 40px 40px 0px 0px;
+	  background-color:rgba(30,30,30,0.9);
+	  box-shadow: 20px 30px 20px #1E1E1E;
+	  padding:20px;
+}
+
+.pre_contenitore p{
+     color:white;
+     text-align: center;
+     font-size: 1.9em;
+     font-family: arial;
+     line-height:2px;
+
+}
+
+
+
+/*contenitore contenete il form */
+
+.contenitore {
+
+	  border:1px solid  #F5824A;
+	  margin:auto;
+	  margin-bottom: 20px;
+	  width: 320px;
+      height: auto;
+      border-radius: 0px 0px 40px 40px;
+      padding:20px;
+      background-color:rgba(30,30,30,0.8);
+      box-shadow: 20px 20px 20px #1E1E1E;
+      color:white;
+
+}
+
+.contenitore input{
+    float:center;
+    width: 100%;
+    margin-bottom: 20px;
+    border:none;
+    border:1px solid black;
+    height: 30px;
+    text-align: center;
+
+}
+.contenitore input[type="text"], input[type="password"] /* i css si riferiscono solo alla barra ditesto */
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.par{
+	text-align: center;
+}
+.contenitore a{
+	color:#F5824A;
+	text-decoration: none;
+
+
+}
+
+.contenitore a:hover{
+	color: #FFAF06;
+}
+
+.contenitore input[type="submit"]{  /* i css si riferiscono solo al pulsante */
+	border-radius: 14px;
+	height: 40px;
+	background-color:  #F5824A;
+}
+
+.contenitore input[type="submit"]:hover {
+	background: #FFAF06;
+}
+
+
+
+
+/*---------------
+FORM AREA UTENTE
+*/
+.avatar {
+ vertical-align: middle;
+ width: 80px;
+ height: 80px;
+ border-radius: 50%;
+}
+.cover_AreaUtente{
+
+	height: auto;
+	width:100%;
+	background-image: url(../images/utente.jpg);
+	opacity: 1;
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center center;
+
+}
+
+
+.cover_filter{
+	background:#1E1E1E;
+	width:100%;
+	height:100%;
+	position: absolute;
+	z-index: 0;
+	opacity: 0.5;
+}
+
+
+.contenitore_Utente{
+
+	  border:1px solid  #F5824A;
+	  margin:auto;
+	  width:550px;
+      height: auto;
+      border-radius: 0px 0px 40px 40px;
+      padding:20px;
+      background-color:rgba(242,242,242,0.9);
+      box-shadow: 5px 5px 45px  #EAEAEA;
+      color:#1E1E1E;
+
+}
+
+.contenitore_Utente a{
+	color:#F5824A;
+	text-decoration: none;	
+}
+
+.contenitore_Utente a:hover{
+	color: #FFAF06;
+}
+
+.contenitore_Utente input[type="submit"]{  /* i css si riferiscono solo al pulsante */
+	border-radius: 14px;
+	height: 40px;
+	background-color:  #F5824A;
+}
+
+.contenitore_Utente input[type="submit"]:hover {
+	background: #FFAF06;
+}
+
+
+
+/*-----------------------------------
+CSS FORM REGISTRAZIONE
+-----------------------------------*/
+.cover__registrazione{
+	height:auto;
+	weight:100%;
+	background-image: url(../images/registrazione.jpg);
+	background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center center;
+
+}
+
+.pre_contenitore_r{
+	  width:600px;
+	  margin:auto;
+	  height:50px;
+	  border:1px solid #F5824A;
+	  border-radius: 40px 40px 0px 0px;
+	  background-color:rgba(30,30,30,0.9);
+	  box-shadow: 20px 30px 20px #1E1E1E;
+	  padding:20px;
+}
+
+.pre_contenitore_r h1{
+     color:white;
+     text-align: center;
+     font-size: 1.9em;
+     font-family: arial;
+     line-height:2px;
+
+}
+
+
+/*contenitore contenete il form */
+
+.contenitore_r {
+
+	  border:1px solid  #F5824A;
+	  margin:auto;
+	  width: 600px;
+      height:auto;
+      border-radius: 0px 0px 40px 40px;
+      padding:20px;
+      background-color:rgba(30,30,30,0.8);
+      box-shadow: 20px 20px 20px #1E1E1E;
+      color:white;
+
+}
+
+.contenitore_r input{
+	float:center;
+    width: 100%;
+    margin-bottom: 20px;
+    border:none;
+    border:1px solid black;
+    height: 30px;
+    text-align: center;
+
+}
+
+.contenitore_r input[type="text"], input[type="password"], input[type="date"] /* i css si riferiscono solo alla barra ditesto */
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.pa{
+	text-align: center;
+}
+.contenitore_r a{
+	color:#F5824A;
+	text-decoration: none;
+
+
+}
+
+.contenitore_r a:hover{
+	color: #FFAF06;
+}
+
+.contenitore_r input[type="submit"]{  /* i css si riferiscono solo al pulsante */
+	border-radius: 14px;
+	height: 40px;
+	width:100%;
+	background-color:  #F5824A;
+}
+
+.contenitore_r input[type="submit"]:hover {
+	background: #FFAF06;
+}
+
+
+/*-----------------------------------
+CSS CARRELLO
+-----------------------------------*/
+
+.carrello {
+	padding:0;
+	margin-top:10%;
+	margin-bottom:85%;
+	
+	
+	
+}
+.carrello h1{
+	
+	text-align:center;
+	margin-bottom: 5%;
+	
+	
+}
+
+.carrello a{
+	
+	margin-left:30%;
+	margin-right: 30%;
+	
+	
+	
+	
+	
+}
+
+.carrello img{
+	display:block;
+     margin:0px auto;
+     text-align:center;
+     max-width: 100%;
+     
+   	 height: auto;
+      
+}
+
+/*-----------------------------------
+Tablet
+-----------------------------------*/
+@media screen and (max-width: 768px) and (orientation: landscape) {
+  
+
+  
+}
+
+
+/*-----------------------------------
+Smartphone
+-----------------------------------*/
+
+@media only screen and (max-width: 678px) {
+
+	  /*-----------------------------------
+CSS MENU
+-----------------------------------*/
+  .spaceR{ display: none;}
+  .header__icon-bar{display: block;}
+  .header__menu {width: 100%; height: 0px; overflow: hidden;}
+  .header__menu__item{display: block;}
+  .header__menu__icon{display: block;}
+  .is-open{ height: 300px; overflow:auto;}
+ 
+   /*-----------------------------------
+CSS COVER HOME
+-----------------------------------*/
+.cover{
+	height: 40%;
+}
+
+.button{
+	display: none;
+}
+
+.button1 {
+	display: inline-block;
+	border-radius: 40px 40px 40px 40px;
+	box-shadow: 20px 30px 20px #1E1E1E;
+	background: #F5824A;
+	width:auto;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left:auto;
+	padding: 20px 90px;
+	
+	
+}
+.button1:hover{
+	color:#F2F2F2;
+	background:#1E1E1E ;
+}
+
+
+.cover__filter{
+	display:none;
+}
+.cover__caption__copy{
+	margin:auto;
+	width:auto;
+	vertical-align: baseline;
+}
+
+
+.text{
+	display:none;
+}
+
+.sub__text{
+	display:none;
+}
+
+  
+  /*-----------------------------------
+CSS FORM LOGIN
+-----------------------------------*/
+.cover__login{
+	width: auto;
+	height:auto;
+}
+
+.pre_contenitore{
+	width: auto;
+	height: auto;
+}
+
+
+
+.contenitore{
+	width: auto;
+	height:auto;
+}
+
+
+  /*-----------------------------------
+CSS FORM REGISTRAZIONE
+-----------------------------------*/
+.cover__registrazione{
+	weight:auto;
+	height:auto;
+	
+
+}
+
+.pre_contenitore_r{
+	  width:auto;
+	  height:auto;
+
+}
+
+.contenitore_r {
+
+	
+	  width: auto;
+      height:auto;
+   
+
+}
+
+.pre_contenitore h1{
+     font-size: 500000px;
+
+}
+
+
+
+  /*-----------------------------------
+CSS AREA UTENTE
+-----------------------------------*/
+.avatar {
+display: block;
+vertical-align: middle;
+postion_align: center;
+margin-left: auto;
+margin-right: auto;
+width: 150px;
+ height: 150px;
+}
+
+.cover_AreaUtente{
+
+	height: auto;
+	width:auto;
+
+}
+
+.contenitore_Utente{  
+	  width:auto;
+      height: auto;
+}
+
+}
+
+
+
+
+
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+
+
+
+
+
+
+
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */

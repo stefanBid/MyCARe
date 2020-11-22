@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+
+</head>
+<body>
+<!-- Slideshow container -->
+<div class="slideshow-container">
+
+
+<!-- Full-width slides/quotes -->
+ <div class="mySlides">
+ <q>MIGLIORI PRODOTTI PER LA PULIZIA INTERNI</q>
+
+ <a href="ProductControl" class="prod">Acquista Subito</a>
+ </div>
+
+
+
+<div class="mySlides">
+ <q>ACQUISTA I MIGLIORI PEZZI PER RENDERE LA TUA MACCHINA UNA DISCOTECA SU 4 RUOTE</q>
+
+ <a href="ProductControl" class="prod"> Acquista Subito</a>
+ </div>
+
+
+
+<div class="mySlides">
+ <q>SCOPRI LE MIGLIORI OFFERTE DEL GIORNO! </q>
+ <a  href="ProductControl" class="prod"> Approfittane Subito</a>
+ </div>
+
+
+
+<!-- Next/prev buttons -->
+ <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+ <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+
+
+<!-- Dots/bullets/indicators -->
+<div class="dot-container">
+ <span class="dot" onclick="currentSlide(1)"></span>
+ <span class="dot" onclick="currentSlide(2)"></span>
+ <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"> </script>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+
+function plusSlides(n) {
+ showSlides(slideIndex += n);
+}
+
+
+
+function currentSlide(n) {
+ showSlides(slideIndex = n);
+}
+
+
+
+function showSlides(n) {
+ var i;
+ var slides = document.getElementsByClassName("mySlides");
+ var dots = document.getElementsByClassName("dot");
+ if (n > slides.length) {slideIndex = 1}
+ if (n < 1) {slideIndex = slides.length}
+ for (i = 0; i < slides.length; i++) {
+ slides[i].style.display = "none";
+ }
+ for (i = 0; i < dots.length; i++) {
+ dots[i].className = dots[i].className.replace(" active", "");
+ }
+ slides[slideIndex-1].style.display = "block";
+ dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.css">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <meta http-equiv="X-UA-Compatible" content ="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+  </head>
+  <body>
+
+  <header class= "header clearfix">
+    <img src="images/logo.png" alt="MyCARe" height="66" width="150">
+    <a href="" class="header__icon-bar">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <ul class="header__menu animate">
+        <li class="header__menu__icon"><a href="UserControl"><img src="images/login.png" alt="MyCARe" style="height: 26px"> Gestione Utenti</a></li>
+        <li class="header__menu__item"><a href="ProductControlAdmin"><img src="images/prodotti.png"alt="MyCARe" style="height: 26px" > Gestione Prodotti</a></li>
+    </ul>
+    
+  </header>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"> </script>
+
+  <!-- scrip memu a tendina per visualizzazione del sito
+       su dispositivi mobili-->
+  <script>
+    $(document).ready(function(){
+
+      $(".header__icon-bar").click(function(e){
+
+        $(".header__menu").toggleClass('is-open');
+        e.preventDefault();
+      });
+
+    });
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,12 @@
+div#container {
+    width: 90%;
+    border: 1px solid #000;
+    text-align: center;
+}
+div.split2 div {
+    float: left;
+    width: 50%;
+}
+div.wide {
+    clear: left;
+}
