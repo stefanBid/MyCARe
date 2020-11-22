@@ -58,16 +58,19 @@ All’utente sarà dedicata un’area in cui lo stesso potrà inserire eventuali
 
 ### Scelta dei Colori
 
-<p>Il sito che si è pensato di sviluppare avrà un set di colori molto caldi e adeguatamente  vivaci (nonché sobri) che mostriamo nell’immagine sotto allegata</p>
+<p>Il sito che si è pensato di sviluppare avrà un set di colori molto caldi e adeguatamente  vivaci (nonché sobri) mostrati nell’immagine sotto allegata</p>
 
 <p align="center"><img src="https://i.imgur.com/AAcYs4q.png" alt="TAVOLA COLORI"></p>
+
+<br>
+
 •	I colori presi in considerazione sono:
 
-•	#FFAF06 ---> Arancione vivido
-•	#F5824A ---> Rosso brillante
-•	#1E1E1E ---> Nero
-•	#F2F2F2 ---> Bianco
-•	#FFFEEF ---> Giallo Pallido
+1.	#FFAF06 ---> Arancione vivido
+2.	#F5824A ---> Rosso brillante
+3.	#1E1E1E ---> Nero
+4.	#F2F2F2 ---> Bianco
+5.	#FFFEEF ---> Giallo Pallido
 
 
 
