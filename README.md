@@ -1,5 +1,5 @@
 
-<img src = "https://imgur.com/LFt0JVv" align = "center" alt="MyCARe">
+<img src = "https://i.imgur.com/LFt0JVv.png" align = "center" alt="MyCARe">
 
 <p>Il sito proposto andrà a gestire la vendita di accessori per auto come ad esempio coprisedili, copri-auto ecc. Questo sito si apre quindi ad un ampio pubblico accomunato dall’amore per il proprio veicolo. I dati sensibili degli utenti verranno trattati ed organizzati in modo tale da essere preservati, e in modo tale che siano persistenti nel sito.<p>
 
