@@ -18,7 +18,7 @@ La scelta dei colori è stato uno degli aspetti che riteniamo più importanti al
 
 ### Utente & Amministratore
 
-•	FIGURA DELL’AMMINISTRATORE
+## FIGURA DELL’AMMINISTRATORE
 
 L’amministratore del sito avrà la possibilità di gestire in modo completo e totale tutta la mercanzia che il sito offrirà.
 Per gestione si intende:
@@ -32,7 +32,7 @@ Per gestione si intende:
 
 
 
-•	FIGURA DELL’UTENTE
+## FIGURA DELL’UTENTE
 
 L’Utente invece potrà solo:
 1.	Registrarsi al Sito
